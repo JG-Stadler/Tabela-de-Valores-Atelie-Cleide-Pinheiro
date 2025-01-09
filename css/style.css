@@ -12,6 +12,27 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+/* Cabeçalho da pagina */
+
+.nome_empresa,.titulo{
+    font-family: cursive,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 4px black;
+}
+.nome_empresa{
+    font-size: 3rem;
+}
+.nav_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.nav_link img{
+    width: 50px;
+    border-radius: 10px;
+}
 
 /* Configurações da tabela */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
@@ -24,7 +45,8 @@ body{
     border: 1px solid #ffb3c6;
     border-radius: 8px;
     overflow: hidden;
-    margin: auto;
+    margin: 30px auto;
+    max-width: 90vw;
   }
   
   .tabela_valores th,
@@ -55,4 +77,24 @@ body{
     text-transform: uppercase;
     font-size: 14px;
   }
-  
+   /* Opções de responsividade */
+
+@media (max-width:700px) {
+    body{
+        background-image: url(../images/background_rosa_mobile.jpg);
+    }
+    .nome_empresa{
+        font-size: xx-large;
+    }
+    .titulo{
+        font-size: medium;
+    }
+    .tabela_valores{
+        font-size: small;
+    }
+}
+@media (max-width:530px) {
+    .tabela_valores{
+        font-size: xx-small;
+    }
+}
