@@ -28,6 +28,3 @@ Este repositório contém o código-fonte de um site simples e elegante desenvol
 
 Sinta-se à vontade para contribuir com sugestões ou melhorias. Abra um *pull request* ou *issue*.
 
-## Licença
-
-Este projeto é licenciado sob a [MIT License](LICENSE).
